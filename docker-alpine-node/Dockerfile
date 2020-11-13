@@ -1,4 +1,4 @@
-FROM alpine:3.10.2
+FROM alpine:3.10
 ENV NODE_VERSION 8.6.0
 
 RUN apk add --no-cache curl gcc g++ python make linux-headers \
